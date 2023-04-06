@@ -57,7 +57,7 @@ function AdminLogin() {
           if (res.status===200){
             
         
-            dispatch(change(res.data.payload.username));
+//             dispatch(change(res.data.payload.username));
             navigate("/users");
           }
         }
